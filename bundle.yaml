@@ -123,5 +123,5 @@ relations:
   - mysql:master
 - - mediawiki:slave
   - mysql-slave:db
-- - mediawiki:website
-  - siege:website
+- - siege:website
+  - haproxy:website
